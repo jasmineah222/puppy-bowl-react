@@ -1,0 +1,52 @@
+.puppies-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.puppies-container > li {
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 4%;
+  display:flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.puppies-container > li > img {
+  max-width: 200px;
+}
+
+.details{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.single-pup {
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-pup img {
+  width: 75%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.deleteBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4%;
+  margin: 5px;
+}
